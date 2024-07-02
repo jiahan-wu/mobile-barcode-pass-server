@@ -45,6 +45,7 @@ app.post("/api/mobile-barcode-passes", (request, response) => {
           },
         ],
       };
+      pass["serialNumber"] = crypto.randomUUID().replace("-", "");
       const passString = JSON.stringify(pass);
       archive.append(passString, { name: "pass.json" });
 
