@@ -24,7 +24,7 @@ npm ci
 * `MBP_PORT`: The port number on which the application will run.
 * `MBP_APPLE_WWDR_CERTIFICATE`: The Apple Worldwide Developer Relations (WWDR) certificate in PEM format.
 * `MBP_CERTIFICATE`: The Apple Wallet Pass certificate in PEM format.
-* `MBP_PRIVATE_KEY`: The private key for signing Apple Wallet passes in PEM format.
+* `MBP_PRIVATE_KEY`: The private key for signing Apple Wallet Passes in PEM format.
 
 4. Start the application:
 
